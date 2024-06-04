@@ -1,0 +1,9 @@
+= Gantt
+
+A `Gantt Representation` conforms to a `xref:maker-manual:studio-definition/view-model/gantt-description.adoc[Gantt Representation Description]` of the _{stddef}_.
+
+== Purpose
+
+Gantt representations represent domain data in the style of https://en.wikipedia.org/wiki/Gantt_chart[Gantt Charts]. The main purpose is to represent the spread of tasks over a timeline.
+
+#TODO: add snapshot and list all functionalities supported by the editor.#

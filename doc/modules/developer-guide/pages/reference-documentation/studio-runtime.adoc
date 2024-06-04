@@ -1,0 +1,12 @@
+= Studio Runtime for Developers
+
+This is the reference documentation for the _{stddef}_, from the point of view of a _{stddev}_.
+Some parts of the _{stddef}_ are already documented in the xref:user-manual:studio-runtime.adoc[User Manual].
+
+The majority of the _{stddef}_ is already documented in the xref:user-manual:studio-runtime.adoc[User Manual].
+
+This chapter will focus on the _{stddevs}_-specific aspects of the _{stddef}_.
+
+#TODO: not sure how much we have to here. Maybe mention how some conflicts get resolved? How to debug? Lifecycle stuff?#
+
+#TODO: delay for the resource set to get disposed, very useful when developing to set this lower.#

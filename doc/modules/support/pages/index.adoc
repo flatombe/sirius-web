@@ -1,0 +1,13 @@
+= Help & Support
+
+== xref:support:best-practices.adoc[]
+
+Follow the best practices from the {sw} developers in order to optimize your {sw} usage and keep your technical debt minimal.
+
+== xref:support:community.adoc[]
+
+Get in touch with the {sw} community to share your experience or get help from fellow {sw} practitioners!
+
+== xref:support:faq.adoc[]
+
+You have a question and you know someone else must have asked this before. It's probably in the FAQ then.

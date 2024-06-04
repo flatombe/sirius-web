@@ -1,0 +1,5 @@
+= Form Description
+
+A `Form Description` defines how the xref:user-manual:studio-runtime.adoc[] creates xref:user-manual:studio-runtime.adoc#_form[Form Representations].
+
+#TODO: Detail the contents of this description.#

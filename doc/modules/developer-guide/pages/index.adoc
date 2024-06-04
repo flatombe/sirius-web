@@ -1,0 +1,10 @@
+= Developer Guide
+
+This developer guide provides step-by-step instructions on how to set up your developer environment, create your own modeling studios, use the {sw} APIs, and enhance the functionality of {sw}.
+
+It is intended for _Developers_ who wish to take a *programmatic* approach to {sw}.
+It assumes a certain level of technical knowledge, particularly with the technologies used by {sw} to provide APIs.
+
+_Studio Users_ should refer to the xref:user-manual:index.adoc[] instead.
+
+_{stdmkrs}_ should refer to the xref:maker-manual:index.adoc[] instead.

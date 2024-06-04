@@ -1,0 +1,5 @@
+= Tutorials
+
+== xref:developer-guide:getting-started/tutorials/basic-family.adoc[]
+
+In this tutorial, you will programmatically create a simple {sw} studio to express family relations.

@@ -1,0 +1,7 @@
+= Core Concepts
+
+include::user-manual:core-concepts/projects.adoc[leveloffset=+1]
+
+include::user-manual:core-concepts/models.adoc[leveloffset=+1]
+
+include::user-manual:core-concepts/representations.adoc[leveloffset=+1]

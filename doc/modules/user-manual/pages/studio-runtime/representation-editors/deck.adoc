@@ -1,0 +1,15 @@
+= Deck
+
+A `Deck Representation` conforms to a `xref:maker-manual:studio-definition/view-model/deck-description.adoc[Deck Representation Description]` of the _{stddef}_.
+
+#TODO: I guess we need to migrate {sw-github}/blob/master/doc/user/deck.adoc #
+
+#TODO: add snapshot and list all functionalities supported by the editor.#
+
+== Purpose
+
+#TODO: Deck representations are perfect for representing...#
+
+== Definition
+
+Deck representations are composed of `Lanes` and `Cards`.

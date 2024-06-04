@@ -1,0 +1,12 @@
+* xref:developer-guide:index.adoc[]
+** xref:developer-guide:introduction.adoc[]
+** xref:developer-guide:getting-started.adoc[]
++
+--
+include::developer-guide:getting-started/nav.adoc[]
+--
+** xref:developer-guide:reference-documentation.adoc[]
++
+--
+include::developer-guide:reference-documentation/nav.adoc[]
+--

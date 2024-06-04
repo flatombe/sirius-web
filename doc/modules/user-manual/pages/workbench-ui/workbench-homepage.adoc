@@ -1,0 +1,19 @@
+= {view-homepage}
+
+This is the defaut entrypoint for {sw}-based applications.
+
+#TODO: Annotate image with callout numbers.#
+
+.The _{view-homepage}_
+image::Homepage.png["{sw} {view-homepage}"]
+
+* Top section: 
+** (1): Wizards to create new projects based on _xref:user-manual:core-concepts.adoc#_project_templates[Project Templates]_.
+** (2): Wizard to create a new blank project. Blank projects initially have no data or metadata beside a name.
+** (3): Wizard to upload a project from your filesystem. The expected file format is described xref:user-manual:core-concepts.adoc#_export[here].
+** (4): Wizard to display all possible project creation options.
+* Bottom section:
+** (5): The paginated list of all existing projects. Click on a project name to open its xref:user-manual:workbench-ui/project-homepage.adoc[homepage].
+** (6): The contextuel menu `...` of a project can be used to _rename_, _download_ or _delete_ the project.
+
+NOTE: Available templates depend on the _xref:user-manual:studio-runtime/data-model.adoc[Data Models]_ contributed to the platform.

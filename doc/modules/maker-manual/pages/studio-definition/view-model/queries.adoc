@@ -1,0 +1,21 @@
+= Queries
+
+In {sw}, when specifying a xref:maker-manual:studio-definition/view-model.adoc[View Model], we need to be able to express *queries* in order to navigate over semantic and graphical elements.
+
+{sw} provides 3 ways to express simple queries:
+
+* xref:maker-manual:studio-definition/view-model/queries.adoc#_query_by_variable_name[Queries by variable name]
+* xref:maker-manual:studio-definition/view-model/queries.adoc#_query_by_feature_name[Queries by feature name]
+* xref:maker-manual:studio-definition/view-model/queries.adoc#_query_by_service_name[Queries by service name]
+
+These usually suffice for straightforward navigation.
+
+For more complex navigation, {sw} embeds a full-on expression language called the xref:maker-manual:studio-definition/view-model/queries.adoc#_acceleo_query_language_aql[Acceleo Query Language (AQL)]. It provides the expressivity required for rich navigation over complex and/or large data models. This expressivity comes at the cost of additional complexity for the {stdmkr}.
+
+include::maker-manual:studio-definition/view-model/queries/var.adoc[leveloffset=+1]
+
+include::maker-manual:studio-definition/view-model/queries/feature.adoc[leveloffset=+1]
+
+include::maker-manual:studio-definition/view-model/queries/service.adoc[leveloffset=+1]
+
+include::maker-manual:studio-definition/view-model/queries/aql.adoc[leveloffset=+1]

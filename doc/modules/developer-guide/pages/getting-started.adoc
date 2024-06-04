@@ -1,0 +1,9 @@
+= Getting Started
+
+Developing with {sw} for the first time? This will show you how to get started up.
+
+Before getting started with {sw}, we recommend xref:developer-guide:getting-started/development-environment.adoc[setting up your development environment].
+
+If you do not already have a web application into which your custom studio will be integrated, then consider also xref:developer-guide:getting-started/custom-application.adoc[setting up your blueprint application].
+
+Once your environment is setup, and your application is ready to integrate your custom studio, you can follow one of the xref:developer-guide:getting-started/tutorials.adoc[available tutorials].

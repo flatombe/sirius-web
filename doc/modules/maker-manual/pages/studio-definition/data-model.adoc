@@ -1,0 +1,22 @@
+= Data Model
+
+The *Data Model* specifies the structure of the domain-specific data that a _{stddef}_ is made to handle.
+
+Depending on your point of view, the _Data Model_ is conceptually similar to what you may already know as _Metamodel_, _Abstract Syntax_ or _Grammar_.
+
+
+== Data Model Creation
+
+{sw} provides a low-code approach to defining the data model of a _{stddef}_.
+
+
+=== The Domain Definition DSL
+
+#TODO: Explain what is the Domain Definition DSL, its concepts, and how to use it to define a data model for our studio definition. Also probably mention the expressivity limitations it comes with.#
+
+
+== Data Model Reuse
+
+It is also possible to reuse, totally or partially, an existing _Data Model_.
+
+#TODO: Explain how we can also just re-use an existing data model for our new studio definition. I guess Sirius Web will show us all registered domains and we can reference them as we wish.#

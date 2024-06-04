@@ -1,0 +1,5 @@
+= Tour the interface
+
+#TODO: Add snapshot and link to the main entry points of the UI to create a Studio Definition.#
+
+#TODO: I think we should talk here (or in the UI pages) of Details fields which are of background yellow vs green vs white#

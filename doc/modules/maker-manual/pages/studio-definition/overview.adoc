@@ -1,0 +1,16 @@
+= Overview
+
+#TODO: This should give a general overview of the general capacities of {sw}, and the lifecycle of the artifacts we are about to edit in order to create a modeler.
+I think here a form of architecture diagram would be nice to visualize the relations between Data Model, View Model and the Sirius-Web runtime.
+Probably the technologies used/available for each side would appear on the diagram too, and/or as an additional layer.#
+
+== Known Limitations
+
+#TODO: remove section?#
+
+The practicality of the low-code approach offered by {sw} comes at the tradeoff of expressivity.
+
+Below is a list of some of the known limitations.
+If you hit one of these, chances are that switching to the *programmatic* approach can help you solve or work around it. Refer to the xref:developer-guide:index.adoc[] for more details.
+
+#TODO: List here some limitations of the View Model DSL compared to what is possible with the API.#

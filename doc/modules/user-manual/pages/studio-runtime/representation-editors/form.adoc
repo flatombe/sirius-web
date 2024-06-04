@@ -1,0 +1,9 @@
+= Form
+
+A `Form Representation` conforms to a `xref:maker-manual:studio-definition/view-model/form-description.adoc[Form Representation Description]` of the _{stddef}_.
+
+== Purpose
+
+Form representations represent the domain data as various fields. They are often used to for the edition of the attribute values on the domain entities.
+
+#TODO: add snapshot and list all functionalities supported by the editor.#

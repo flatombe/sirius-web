@@ -1,0 +1,22 @@
+= Diagram
+
+A `Diagram Representation` conforms to a `xref:maker-manual:studio-definition/view-model/diagrams.adoc[Diagram Representation Description]` of the _{stddef}_.
+
+== Purpose
+
+Diagram representations represent the domain-specific data as nodes connected by edges.
+They are typically used to represent logical topologies such as software or system architectures, organizations or deployments.
+
+#TODO: add snapshot and list all functionalities supported by the editor.#
+
+== Visualization
+
+#TODO: talk about layers, node mappings, container mappings, relation-based edge mappings, element-based edge mappings, etc.#
+
+#TODO: Drag and drop fade.#
+
+#TODO: Show/hide of an element is available on an element, but to reveal one needs to rely on the toolbar#
+
+== Edition
+
+#TODO: talk about palettes, tools, etc.#

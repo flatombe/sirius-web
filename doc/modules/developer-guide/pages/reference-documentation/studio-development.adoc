@@ -1,0 +1,14 @@
+= Studio Development
+
+#TODO: I'm not sure what the API documentation will look like, but potentially it might be quite large. I think we might need to split this up a bit more to account for this.#
+
+This is the reference documentation for programmatically creating a modeling studio with {sw}.
+It explains the architecture and lifecycle of the framework, and describes the various APIs that can be used to programmatically create _{stddefs}_ or extend the _{stddef}_.
+
+include::developer-guide:reference-documentation/studio-development/overview.adoc[leveloffset=+1]
+
+include::developer-guide:reference-documentation/studio-development/api-workbench.adoc[leveloffset=+1]
+
+include::developer-guide:reference-documentation/studio-development/api-datamodel.adoc[leveloffset=+1]
+
+include::developer-guide:reference-documentation/studio-development/api-viewmodel.adoc[leveloffset=+1]

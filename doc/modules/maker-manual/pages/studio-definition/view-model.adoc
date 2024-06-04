@@ -1,0 +1,12 @@
+= View Model
+
+The *View Model* of a _xref:maker-manual:studio-definition.adoc[{stddef}]_ defines how, xref:user-manual:studio-runtime.adoc[at runtime], domain-specific data conforming to the _xref:maker-manual:studio-definition/data-model.adoc[Data Model]_ is to be *represented* and *edited* through {sw} _xref:user-manual:core-concepts/representations.adoc[Representations]_.
+
+A _View Model_ is composed of several _Views_. Each View is made of so-called _xref:maker-manual:studio-definition/view-model/representation-descriptions.adoc[Representation Descriptions]_.
+At runtime, each _xref:user-manual:core-concepts/representations.adoc[Representation]_ stems from the application of a _Representation Description_ onto a set of domain-specific data conforming to the corresponding _Data Model_.
+
+NOTE: Most of the time, a _View Model_ will focus on providing representation descriptions that focus on the _Data Model_ contributed alongside it as part of the {stddef}. But there are no technical restrictions, so a _View Model_ could just as easily provide representation descriptions for other _Data Models_ available in the platform.
+
+Each _View_ is a pre-defined, finite, set of representation descriptions. Usually the scoping of a _View_ is determined based on the intended audience: depending on the role of the _{stdusr}_ in the organization (e.g. architect, engineering, quality assurance, etc.), different means of visualizing and editing the same set of domain-specific data may be more appropriate.
+
+TIP: In some communities, this approach is known as _Viewpoints_ or _Perspectives_.

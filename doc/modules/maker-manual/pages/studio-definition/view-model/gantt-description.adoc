@@ -1,0 +1,5 @@
+= Gantt Description
+
+A `Gantt Description` defines how the xref:user-manual:studio-runtime.adoc[] creates xref:user-manual:studio-runtime.adoc#_gantt[Gantt Representations].
+
+#TODO: Detail the contents of this description.#

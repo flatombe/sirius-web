@@ -1,0 +1,7 @@
+= Deck Description
+
+A `Deck Description` defines how the xref:user-manual:studio-runtime.adoc[] creates xref:user-manual:studio-runtime.adoc#_deck[Deck Representations].
+
+#TODO: Detail the contents of this description.#
+
+#TODO: migrate {sw-github}/blob/master/doc/specifier/deck.adoc ?#

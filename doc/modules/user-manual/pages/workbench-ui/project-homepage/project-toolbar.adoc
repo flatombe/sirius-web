@@ -1,0 +1,15 @@
+= {view-project-toolbar}
+
+The *{view-project-toolbar}* is located at the top of the _xref:user-manual:workbench-ui.adoc[]_ and is used to display and manage the metadata of a _xref:user-manual:core-concepts.adoc#_projects[Project]_.
+
+.The {view-project-toolbar}
+image::Project-Toolbar.png["{view-project-toolbar}"]
+
+* image:Project-Toolbar_Home.png["{view-project-toolbar} Button Home"] (`Back to the homepage`): Redirects to the _xref:user-manual:workbench-ui/workbench-homepage.adoc[]_ of the application.
+* image:Project-Toolbar_Name.png["{view-project-toolbar} Project Name"]: The name of the project.
+* Project contextual menu `...`:
+. image:Project-Toolbar_Menu_Rename.png["{view-project-toolbar} Contextual Menu Action Rename"]: Opens the dialog to change the name of the project.
+. image:Project-Toolbar_Menu_Download.png["{view-project-toolbar} Contextual Menu Action Download"]: To _xref:user-manual:core-concepts.adoc#_export[Download]_ the project as a ZIP archive of JSON files.
+. image:Project-Toolbar_Menu_Settings.png["{view-project-toolbar} Contextual Menu Action Settings"]: To visualize and edit the settings of the project.
+. image:Project-Toolbar_Menu_Delete.png["{view-project-toolbar} Contextual Menu Action Download"]: Opens the dialog to remove the project from the workbench.
+* image:Project-Toolbar_Help.png["{view-project-toolbar} Button Help"]: To open the documentation of the application.

@@ -1,0 +1,80 @@
+= Projects
+
+== Purpose
+
+In {sw}, a _Project_ is the base organizational unit.
+
+It serves as a top-level container for _project elements_ which may be _xref:user-manual:core-concepts.adoc#_models[Models]_ (and their _Objects_) or _xref:user-manual:core-concepts.adoc#_representations[Representations]_.
+
+
+== Project Natures
+
+Depending on their intended use, a _Project_ may be tagged with one or several _Project Nature_.
+
+#TODO: List all Project Natures that are contributed by default.#
+[cols="1,1,3"]
+|===
+|*Nature*
+|*ID*
+|*Purpose*
+
+|Studio
+|`siriusComponents://nature?kind=studio`
+|Identifies projects used by _{stdmkrs}_ and _{stddevs}_ to define xref:maker-manual:studio-definition/data-model.adoc[custom data models] and xref:maker-manual:studio-definition/view-model.adoc[custom view models]. Projects with this nature have access to all metamodels, _View_ and _Domain_ included. Other projects may not create _View_ or _Domain_ models.
+
+|nature2
+|id2
+|purpose2
+|===
+
+
+== Project Templates
+
+Sometimes, getting started on a new domain may seem a bit daunting at first ; or other times we may want to get a quick answer about a particular domain and we don't want to go through the trouble of having to create a new project with some data and representations in it.
+
+To facilitate this, {sw} provides the possibility for custom studios to contribute so-called _Template Projects_.
+A _Template Project_ is a representative sample _Project_ for a specific purpose. Usually it is used to be able to quickly create a project with a model of a particular domain, but it is not limited to that use case. It can also be very practical to be able to quickly showcase the depth and breadth of possibilities offered by a custom studio.
+
+By default, _Template Projects_ are listed at the top of the homepage of the xref:user-manual:workbench-ui.adoc[workbench]. In a few clicks, one can create a new project populated with domain-specific models and their graphical representations.
+
+
+
+== Stereotypes
+
+_Stereotypes_ are a bit like _Project Templates_, but instead of enabling the quick and easy creation of a pre-populated project, they are used to quickly create a pre-populated domain-specific model in any project.
+
+By default, _Stereotypes_ are available from the main view on a _Project_, through the left pane 'Create a new Model'.
+
+
+== Lifecycle
+
+Although _Projects_ can be managed programmatically, they are most often managed directly by _{stdusrs}_ through the xref:user-manual:workbench-ui.adoc[Generic Workbench UI].
+
+=== Creation
+
+There are two ways to add a new _Project_ to the workbench:
+
+* By creating a new project, which can be blank or a xref:user-manual:core-concepts.adoc#_project_templates[template], in which case it may contain some default contents.
+* By uploading an existing project. The uploaded file must conform to one of the xref:user-manual:core-concepts.adoc#_export[supported export formats].
+
+
+=== Edition
+
+_Projects_ can be edited by all _{stdusrs}_.
+
+To start editing a project, open one from the homepage, and use the editors at your disposal to edit the contents of the project.
+
+The name of a project can also be edited. It must be a `String` between 3 and 1024 characters.
+
+
+=== Deletion
+
+_Projects_ can be deleted from the workbench by any _{stdusr}_.
+
+
+=== Export
+
+_Projects_ can be exported as a set of `JSON` files by any _{stdusr}_.
+
+#TODO: I think at some point we need to make explicit the serialization format used by the exporter.#
+#TODO: Explain limitations of the "Download Project" feature, in particular for de-synchronized diagrams.#

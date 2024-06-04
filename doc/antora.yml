@@ -1,9 +1,41 @@
 name: sirius-web
 title: Sirius Web
 version: true
-start_page: root.adoc
+start_page: index.adoc
 nav:
   - modules/ROOT/nav.adoc
+  - modules/getting-started/nav.adoc
   - modules/user-manual/nav.adoc
-  - modules/developer-manual/nav.adoc
+  - modules/maker-manual/nav.adoc
+  - modules/developer-guide/nav.adoc
+  - modules/support/nav.adoc
+  - modules/release-notes/nav.adoc
   - modules/legal/nav.adoc
+
+asciidoc:
+  attributes:
+    sirius-website: https://eclipse.dev/sirius
+    stddef: Studio Definition
+    stddefs: Studio Definitions
+    stddev: Developer
+    stddevs: Developers
+    stdmkr: Studio Maker
+    stdmkrs: Studio Makers
+    stdrt: Studio Runtime
+    stdusr: Studio User
+    stdusrs: Studio Users
+    sw: Sirius Web
+    sw-forum: https://github.com/eclipse-sirius/sirius-web/discussions
+    sw-github: https://github.com/eclipse-sirius/sirius-web
+    sw-tracker: https://github.com/eclipse-sirius/sirius-web/issues
+    sw-website: https://eclipse.dev/sirius/sirius-web.html
+    view-details: Details
+    view-explorer: Project Explorer
+    view-homepage: Homepage
+    view-project-editor: Project Editor
+    view-project-toolbar: Project Toolbar
+    view-related: Related Elements
+    view-representations: Representations
+    view-validation: Validation
+    
+    

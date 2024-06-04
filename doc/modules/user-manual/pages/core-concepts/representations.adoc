@@ -1,0 +1,10 @@
+= Representations
+
+A _Representation_ is a runtime artefact stemming from one of the contributed _xref:user-manual:studio-runtime/representation-editors.adoc[View Models]_.
+Its purpose is in presenting a partial view of a _xref:user-manual:core-concepts.adoc#_models[Model]_. The partiality of the view depends on the intended audience: Systems Engineers may be more familiar with architecture diagrams, while Qualiticians may need table-like forms pertaining to functional properties of the model at hand.
+
+Most of the time a _Representation_ allows both *visualizing* and *editing* a specific sub-set of a _Model_. There are, however, no technical limitations regarding the scope of what can be visualized and edited. This means that it is possible for a _Representation_ to be _read-only_, to represent a _whole model_ or only a very specific sub-set of it, etc.
+
+By default, _Representations_ belong to a _Projet_ and are serialized with it. However it is also possible for {sw}-based applications to set up temporary representations that are not meant to be added onto a project.
+
+A _Representation_ is always _rooted_ in a particular _Object_ belonging to a _Model_. In the _xref:user-manual:workbench-ui/project-homepage/explorer.adoc[]_ tab, representations are located just below the _Object_ they are rooted in.

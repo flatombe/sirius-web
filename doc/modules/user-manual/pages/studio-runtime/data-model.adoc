@@ -1,0 +1,7 @@
+= Data Model Contributions
+
+#TODO: I think here we need to describe what is a data model (essentially a metamodel) and its impact on the runtime. We should list all the various contributions that a data model makes, that has an impact on the Generic Workbench UI (and cross-reference the corresponding section):#
+
+* when a data model contributes stereotypes, they appear in the homepage
+* when a data model contributes queries, they appear in the "Related Elements" tab
+* etc...

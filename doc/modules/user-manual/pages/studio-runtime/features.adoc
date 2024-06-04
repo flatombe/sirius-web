@@ -1,0 +1,8 @@
+= Runtime Features
+
+#TODO: Basically in this section the idea is to describe the generic facilities available at runtime and provided "for free" by {sw}.
+Maybe this should talk about projects/workspaces? Default layouting strategies for diagrams? Default menus available out of the box?#
+
+include::user-manual:studio-runtime/data-model.adoc[leveloffset=+1]
+
+include::user-manual:studio-runtime/representation-editors.adoc[leveloffset=+1]

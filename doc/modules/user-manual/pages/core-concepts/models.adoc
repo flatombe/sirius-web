@@ -1,0 +1,9 @@
+= Models
+
+#TODO: Need to confirm the model/object terminology that Sirius Web ultimately wants to use.#
+
+In {sw}, a _Model_ is a root element inside a _Project_ that contains semantic data.
+
+It conforms to one of the contributed _xref:user-manual:studio-runtime/data-model.adoc[Data Models]_.
+
+_Models_ may contain various _Objects_, as defined by the _Data Model_ to which it conforms.

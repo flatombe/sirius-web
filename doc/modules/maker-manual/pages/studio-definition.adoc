@@ -1,0 +1,5 @@
+= Studio Definition
+
+This is the reference documentation for how to create a _{stddef}_ with the *low-code* approach of {sw}.
+
+include::maker-manual:studio-definition/nav.adoc[]

@@ -1,0 +1,11 @@
+= Color Palettes
+
+A _View_ can contain several *Color Palettes*.
+
+In each _Color Palette_, the _{stdmkr}_ can define several *Color*.
+
+== Fixed Colors
+
+{sw} only supports *Fixed Colors*.
+
+A _Fixed Color_ is specified through a `String` that must be a valid _Hexadecimal Color Code_, e.g. `#FF0000` for _red_.

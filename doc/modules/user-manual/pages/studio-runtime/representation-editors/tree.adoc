@@ -1,0 +1,9 @@
+= Tree
+
+A `Tree Representation` conforms to a `xref:maker-manual:studio-definition/view-model/tree-description.adoc[Tree Representation Description]` of the _{stddef}_.
+
+== Purpose
+
+Trees represent domain data in a hierarchical manner.
+
+#TODO: add snapshot and list all functionalities supported by the editor.#

@@ -1,0 +1,5 @@
+= Tree Description
+
+A `Tree Description` defines how the xref:user-manual:studio-runtime.adoc[] creates xref:user-manual:studio-runtime.adoc#_tree[Tree Representations].
+
+#TODO: Detail the contents of this description.#

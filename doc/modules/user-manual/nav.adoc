@@ -1,8 +1,18 @@
 * xref:user-manual:index.adoc[]
+** xref:user-manual:interface-tour.adoc[]
+** xref:user-manual:core-concepts.adoc[]
+** xref:user-manual:workbench-ui.adoc[Generic Workbench UI]
 +
 --
-include::user-manual:about/nav.adoc[]
-include::user-manual:getting-started/nav.adoc[]
-include::user-manual:reference-documentation/nav.adoc[]
-include::user-manual:support/nav.adoc[]
+include::user-manual:workbench-ui/nav.adoc[]
+--
+** xref:user-manual:studio-runtime.adoc[]
++
+--
+include::user-manual:studio-runtime/nav.adoc[]
+--
+** xref:user-manual:tutorials.adoc[]
++
+--
+include::user-manual:tutorials/nav.adoc[]
 --

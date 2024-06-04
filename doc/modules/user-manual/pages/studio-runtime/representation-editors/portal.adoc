@@ -1,0 +1,11 @@
+= Portal
+
+A `Portal Representation` conforms to a `xref:maker-manual:studio-definition/view-model/portal-description.adoc[Portal Representation Description]` of the _{stddef}_.
+
+#TODO: migrate {sw-github}/blob/master/doc/user/representation-portal.adoc #
+
+== Purpose
+
+Portals are dashboard-like representations that can be used to visualize and edit multiple other representations.
+
+#TODO: add snapshot and list all functionalities supported by the editor.#
